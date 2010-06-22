@@ -5,5 +5,5 @@ require 'outside_in'
 
 radars = OutsideIn::Radar.new(lat, lng)
 radars.stories.each do |story|
-  puts "#{story.title} by #{story.author}
+  puts "#{story.title} by #{story.author}"
 end
