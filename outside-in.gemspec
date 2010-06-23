@@ -19,13 +19,15 @@ Gem::Specification.new do |s|
   s.files = [
     "LICENSE",
      "README",
+     "Rakefile",
      "VERSION",
      "lib/outside_in.rb",
      "lib/outside_in/place.rb",
      "lib/outside_in/radar.rb",
      "lib/outside_in/story.rb",
      "lib/outside_in/tag.rb",
-     "lib/outside_in/tweet.rb"
+     "lib/outside_in/tweet.rb",
+     "outside-in.gemspec"
   ]
   s.homepage = %q{http://github.com/dob/outsidein}
   s.rdoc_options = ["--charset=UTF-8"]
