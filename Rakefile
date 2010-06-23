@@ -8,6 +8,7 @@ begin
     gemspec.homepage = "http://github.com/dob/outsidein"
     gemspec.authors = ["Doug Petkanics"]
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
 end
